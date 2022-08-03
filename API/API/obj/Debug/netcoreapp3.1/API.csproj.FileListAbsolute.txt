@@ -1,0 +1,98 @@
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\API.exe
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\API.deps.json
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\API.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\API.pdb
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.dll
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.pdb
+D:\Project\Github\Traning Fresher\CRUDEmployee\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\API.exe
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\API.deps.json
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\API.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\API.pdb
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.dll
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.pdb
+C:\Users\Abhishek Biju\Downloads\CRUDEmployee Application\Share Application\API\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
