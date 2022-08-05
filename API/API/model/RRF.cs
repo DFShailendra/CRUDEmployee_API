@@ -12,16 +12,18 @@
         public decimal BillingRate { get; set; }
         public System.DateTime BillingStartDate { get; set; }
         public int PositionTypeId { get; set; }
-        public int IsInternalResource { get; set; }
+        public int IsInternalResourceId { get; set; }
         public int IdentifiedResourceId { get; set; }
-        public int NumberOfPosition { get; set; }
-        public int PayroleType { get; set; }
+        public int NumberOfPositionId { get; set; }
+        public int PayroleTypeId { get; set; }
         public int ApprovedByResourceId { get; set; }
         public string PrimaryTechnologies { get; set; }
         public int MinimumYearsOfExperienceId { get; set; }
+
+        public string MandatorySkills { get; set; }
         public string NiceToHaveSkills { get; set; }
         public string JobLocation { get; set; }
-        public int IsRemotely { get; set; }
+        public int IsRemotelyId { get; set; }
         public int InterviewByResourceId { get; set; }
         public string JobDescription { get; set; }
         public string OtherInputs { get; set; }

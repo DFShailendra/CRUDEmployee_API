@@ -83,16 +83,17 @@ namespace EmployeeAPI.DataAccessLayer
                                 if (reader["BillingRate"] != DBNull.Value) { objRRF.BillingRate = (decimal)reader["BillingRate"]; }
                                 if (reader["BillingStartDate"] != DBNull.Value) { objRRF.BillingStartDate = (System.DateTime)reader["BillingStartDate"]; }
                                 if (reader["PositionTypeId"] != DBNull.Value) { objRRF.PositionTypeId = (int)reader["PositionTypeId"]; }
-                                if (reader["IsInternalResource"] != DBNull.Value) { objRRF.IsInternalResource = (int)reader["IsInternalResource"]; }
+                                if (reader["IsInternalResourceId"] != DBNull.Value) { objRRF.IsInternalResourceId = (int)reader["IsInternalResourceId"]; }
                                 if (reader["IdentifiedResourceId"] != DBNull.Value) { objRRF.IdentifiedResourceId = (int)reader["IdentifiedResourceId"]; }
-                                if (reader["NumberOfPosition"] != DBNull.Value) { objRRF.NumberOfPosition = (int)reader["NumberOfPosition"]; }
-                                if (reader["PayroleType"] != DBNull.Value) { objRRF.PayroleType = (int)reader["PayroleType"]; }
+                                if (reader["NumberOfPositionId"] != DBNull.Value) { objRRF.NumberOfPositionId = (int)reader["NumberOfPositionId"]; }
+                                if (reader["PayroleTypeId"] != DBNull.Value) { objRRF.PayroleTypeId = (int)reader["PayroleTypeId"]; }
                                 if (reader["ApprovedByResourceId"] != DBNull.Value) { objRRF.ApprovedByResourceId = (int)reader["ApprovedByResourceId"]; }
                                 if (reader["PrimaryTechnologies"] != DBNull.Value) { objRRF.PrimaryTechnologies = (string)reader["PrimaryTechnologies"]; }
                                 if (reader["MinimumYearsOfExperienceId"] != DBNull.Value) { objRRF.MinimumYearsOfExperienceId = (int)reader["MinimumYearsOfExperienceId"]; }
+                                if (reader["MandatorySkills"] != DBNull.Value) { objRRF.MandatorySkills = (string)reader["MandatorySkills"]; }
                                 if (reader["NiceToHaveSkills"] != DBNull.Value) { objRRF.NiceToHaveSkills = (string)reader["NiceToHaveSkills"]; }
                                 if (reader["JobLocation"] != DBNull.Value) { objRRF.JobLocation = (string)reader["JobLocation"]; }
-                                if (reader["IsRemotely"] != DBNull.Value) { objRRF.IsRemotely = (int)reader["IsRemotely"]; }
+                                if (reader["IsRemotelyId"] != DBNull.Value) { objRRF.IsRemotelyId = (int)reader["IsRemotelyId"]; }
                                 if (reader["InterviewByResourceId"] != DBNull.Value) { objRRF.InterviewByResourceId = (int)reader["InterviewByResourceId"]; }
                                 if (reader["JobDescription"] != DBNull.Value) { objRRF.JobDescription = (string)reader["JobDescription"]; }
                                 if (reader["OtherInputs"] != DBNull.Value) { objRRF.OtherInputs = (string)reader["OtherInputs"]; }
@@ -145,24 +146,25 @@ namespace EmployeeAPI.DataAccessLayer
                     cmd.Parameters.Add("@SubmissionDate", SqlDbType.DateTime).Value = objRRF.SubmissionDate;
                     cmd.Parameters.Add("@RoleId", SqlDbType.Int).Value = objRRF.RoleId;
                     cmd.Parameters.Add("@IsBillable", SqlDbType.Int).Value = objRRF.IsBillable;
-                    cmd.Parameters.Add("@BillingRate", SqlDbType.Int).Value = objRRF.BillingRate;
+                    cmd.Parameters.Add("@BillingRate", SqlDbType.Decimal).Value = objRRF.BillingRate;
                     cmd.Parameters.Add("@BillingStartDate", SqlDbType.DateTime).Value = objRRF.BillingStartDate;
                     cmd.Parameters.Add("@PositionTypeId", SqlDbType.Int).Value = objRRF.PositionTypeId;
-                    cmd.Parameters.Add("@IsInternalResource", SqlDbType.Int).Value = objRRF.IsInternalResource;
+                    cmd.Parameters.Add("@IsInternalResourceId", SqlDbType.Int).Value = objRRF.IsInternalResourceId;
                     cmd.Parameters.Add("@IdentifiedResourceId", SqlDbType.Int).Value = objRRF.IdentifiedResourceId;
-                    cmd.Parameters.Add("@NumberOfPosition", SqlDbType.Int).Value = objRRF.NumberOfPosition;
-                    cmd.Parameters.Add("@PayroleType", SqlDbType.Int).Value = objRRF.PayroleType;
+                    cmd.Parameters.Add("@NumberOfPositionId", SqlDbType.Int).Value = objRRF.NumberOfPositionId;
+                    cmd.Parameters.Add("@PayroleTypeId", SqlDbType.Int).Value = objRRF.PayroleTypeId;
                     cmd.Parameters.Add("@ApprovedByResourceId", SqlDbType.Int).Value = objRRF.ApprovedByResourceId;
                     cmd.Parameters.Add("@PrimaryTechnologies", SqlDbType.NVarChar).Value = objRRF.PrimaryTechnologies;
                     cmd.Parameters.Add("@MinimumYearsOfExperienceId", SqlDbType.Int).Value = objRRF.MinimumYearsOfExperienceId;
-                    cmd.Parameters.Add("@NiceToHaveSkills", SqlDbType.Int).Value = objRRF.NiceToHaveSkills;
-                    cmd.Parameters.Add("@JobLocation", SqlDbType.Int).Value = objRRF.JobLocation;
-                    cmd.Parameters.Add("@IsRemotely", SqlDbType.NVarChar).Value = objRRF.IsRemotely;
+                    cmd.Parameters.Add("@MandatorySkills", SqlDbType.NVarChar).Value = objRRF.MandatorySkills;
+                    cmd.Parameters.Add("@NiceToHaveSkills", SqlDbType.NVarChar).Value = objRRF.NiceToHaveSkills;
+                    cmd.Parameters.Add("@JobLocation", SqlDbType.NVarChar).Value = objRRF.JobLocation;
+                    cmd.Parameters.Add("@IsRemotelyId", SqlDbType.Int).Value = objRRF.IsRemotelyId;
                     cmd.Parameters.Add("@InterviewByResourceId", SqlDbType.Int).Value = objRRF.InterviewByResourceId;
                     cmd.Parameters.Add("@JobDescription", SqlDbType.NVarChar).Value = objRRF.JobDescription;
                     cmd.Parameters.Add("@OtherInputs", SqlDbType.NVarChar).Value = objRRF.OtherInputs;
                     cmd.Parameters.Add("@Remark", SqlDbType.NVarChar).Value = objRRF.Remark;
-                    cmd.Parameters.Add("@UserId", SqlDbType.NVarChar).Value = '1';
+                    cmd.Parameters.Add("@UserId", SqlDbType.NVarChar).Value = "testUser";
 
                     //how to add UserId?
                     conn.Open();
@@ -191,6 +193,7 @@ namespace EmployeeAPI.DataAccessLayer
                     SqlCommand cmd = new SqlCommand("SP_RRF_Delete", conn);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.Add("@RRFId", SqlDbType.Int).Value = ID;
+                    cmd.Parameters.Add("@UserId", SqlDbType.NVarChar).Value = "testUser";
                     //how to add userid?
                     conn.Open();
                     result = cmd.ExecuteNonQuery();
