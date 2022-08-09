@@ -209,5 +209,42 @@ namespace EmployeeAPI.DataAccessLayer
         }
 
 
+        public DataTable GetAllDDLS()
+        {
+            DataSet dataSet = new DataSet();
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (TransactionScope scope = new TransactionScope())
+                {
+                    using (SqlConnection conn = new SqlConnection(connectionstring))
+                    {
+                        SqlCommand cmd = new SqlCommand("SP_Resource_GetResourceDDL", conn);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        conn.Open();
+                        SqlDataAdapter da = new SqlDataAdapter();
+                        da.SelectCommand = cmd;
+                        da.Fill(dataSet);
+                        dataTable = dataSet.Tables[0];
+                        conn.Close();
+                        scope.Complete();
+                    }
+                }
+            }
+            catch (TransactionAbortedException ex)
+            {
+                throw new System.Exception("TransactionAbortedException Message: {0}", ex);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return dataTable;
+        }
+
+
+
+
     }
 }

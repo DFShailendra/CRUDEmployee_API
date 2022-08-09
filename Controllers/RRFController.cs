@@ -94,5 +94,18 @@ namespace API.Controllers
                 return StatusCode(500, ex);
             }
         }
+
+        [HttpGet("getDDL")]
+        public IActionResult GetDDLS()
+        {
+            try
+            {
+                DataTable result = _RRFDAL.GetAllDDLS();
+                return Ok(result);
+            } catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
+        }
     }
 }

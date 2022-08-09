@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek Biju\\Downloads\\CRUDEmployee Application\\Share Application\\API\\API\\API.csproj": {}
+    "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek Biju\\Downloads\\CRUDEmployee Application\\Share Application\\API\\API\\API.csproj": {
+    "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek Biju\\Downloads\\CRUDEmployee Application\\Share Application\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Abhishek Biju\\Downloads\\CRUDEmployee Application\\Share Application\\API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\API.csproj",
         "packagesPath": "C:\\Users\\Abhishek Biju\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek Biju\\Downloads\\CRUDEmployee Application\\Share Application\\API\\API\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abhishek Biju\\AppData\\Roaming\\NuGet\\NuGet.Config",
