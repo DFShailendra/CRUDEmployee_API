@@ -243,6 +243,30 @@ namespace EmployeeAPI.DataAccessLayer
             return dataTable;
         }
 
+        public DataTable GetResourceDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_Resource_GetResourceDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "Resources";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
 
 
 

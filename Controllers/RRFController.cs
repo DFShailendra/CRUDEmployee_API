@@ -96,12 +96,14 @@ namespace API.Controllers
         }
 
         [HttpGet("getDDL")]
-        public IActionResult GetDDLS()
+        public IActionResult getDDL()
         {
             try
             {
-                DataTable result = _RRFDAL.GetAllDDLS();
-                return Ok(result);
+                DataSet dataSet = new DataSet();
+                DataTable resource = _RRFDAL.GetResourceDDL();
+                dataSet.Tables.Add(resource);
+                return Ok(dataSet);
             } catch (Exception ex)
             {
                 return StatusCode(500, ex);
