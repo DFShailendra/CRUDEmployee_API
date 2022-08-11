@@ -102,7 +102,37 @@ namespace API.Controllers
             {
                 DataSet dataSet = new DataSet();
                 DataTable resource = _RRFDAL.GetResourceDDL();
+                DataTable client = _RRFDAL.GetClientDDL();
+                DataTable role = _RRFDAL.GetRoleDDL();
+                DataTable billable = _RRFDAL.GetBillableDDL();
+                DataTable positiontype = _RRFDAL.GetPositionTypeDDL();
+                DataTable numberofposition = _RRFDAL.GetNumberOfPositionDDL();
+                DataTable isinternalresource = _RRFDAL.GetIsInternalResourceDDL();
+                DataTable payroletype = _RRFDAL.GetPayroleTypeDDL();
+                DataTable isremotely = _RRFDAL.GetIsRemotelyDDL();
+                DataTable minimumyearsofexperience = _RRFDAL.GetMinimumYearsOfExperienceDDL();
+
+
+
+
+
+
                 dataSet.Tables.Add(resource);
+                dataSet.Tables.Add(client);
+                dataSet.Tables.Add(role);
+                dataSet.Tables.Add(billable);
+                dataSet.Tables.Add(positiontype);
+                dataSet.Tables.Add(numberofposition);
+                dataSet.Tables.Add(isinternalresource);
+                dataSet.Tables.Add(payroletype);
+                dataSet.Tables.Add(minimumyearsofexperience);
+                dataSet.Tables.Add(isremotely);
+
+
+
+
+
+
                 return Ok(dataSet);
             } catch (Exception ex)
             {

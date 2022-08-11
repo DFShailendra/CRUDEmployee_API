@@ -1573,23 +1573,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shailendra.pardeshi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Abhishek Biju\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Github\\Traning Fresher\\CRUDEmployee\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Project\\Github\\Traning Fresher\\CRUDEmployee\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\shailendra.pardeshi\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Github\\Traning Fresher\\CRUDEmployee\\API\\obj\\",
+      "projectPath": "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\API.csproj",
+      "packagesPath": "C:\\Users\\Abhishek Biju\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abhishek Biju\\Documents\\CRUDEmployee_API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\shailendra.pardeshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Abhishek Biju\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1654,7 +1650,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   },

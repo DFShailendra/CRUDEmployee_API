@@ -267,6 +267,246 @@ namespace EmployeeAPI.DataAccessLayer
             return dataTable;
         }
 
+        public DataTable GetClientDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_Client_GetAllClientDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "Clients";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        /*        public DataTable GetProjectDDL()
+                {
+                    DataTable dataTable = new DataTable();
+                    try
+                    {
+                        using (SqlConnection conn = new SqlConnection(connectionstring))
+                        {
+                            SqlCommand cmd = new SqlCommand("SP_Project_GetProjectDDL", conn);
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            conn.Open();
+                            SqlDataAdapter da = new SqlDataAdapter();
+                            da.SelectCommand = cmd;
+                            da.Fill(dataTable);
+                            dataTable.TableName = "Projects";
+                            conn.Close();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        throw ex;
+                    }
+                    return dataTable;
+                }*/
+
+        public DataTable GetRoleDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_Role_GetRoleDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "Roles";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+
+        public DataTable GetBillableDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_BillableOpportunity_GetBillableDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "Billables";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        public DataTable GetPositionTypeDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_PositionType_GetPositionTypeDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "PositionTypes";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        public DataTable GetIsInternalResourceDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_IsInternalResource_GetIsInternalResourceDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "IsInternalResource";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        public DataTable GetNumberOfPositionDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_NumberOfPosition_GetNumberOfPositionDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "NumberOfPosition";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        public DataTable GetPayroleTypeDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_PayroleType_GetPayroleTypeDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "PayroleType";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        public DataTable GetMinimumYearsOfExperienceDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_MinimumYearsOfExperience_GetMinimumYearsOfExperienceDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "MinimumYearsOfExperience";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        public DataTable GetIsRemotelyDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_IsRemotely_GetIsRemotelyDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "IsRemotely";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
 
 
 

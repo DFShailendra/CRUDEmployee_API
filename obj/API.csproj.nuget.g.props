@@ -5,16 +5,15 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\shailendra.pardeshi\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Abhishek Biju\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\shailendra.pardeshi\.nuget\packages\" />
-    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+    <SourceRoot Include="C:\Users\Abhishek Biju\.nuget\packages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\shailendra.pardeshi\.nuget\packages\enterpriselibrary.common\6.0.1304</PkgEnterpriseLibrary_Common>
-    <PkgEnterpriseLibrary_Data Condition=" '$(PkgEnterpriseLibrary_Data)' == '' ">C:\Users\shailendra.pardeshi\.nuget\packages\enterpriselibrary.data\6.0.1304</PkgEnterpriseLibrary_Data>
+    <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\Abhishek Biju\.nuget\packages\enterpriselibrary.common\6.0.1304</PkgEnterpriseLibrary_Common>
+    <PkgEnterpriseLibrary_Data Condition=" '$(PkgEnterpriseLibrary_Data)' == '' ">C:\Users\Abhishek Biju\.nuget\packages\enterpriselibrary.data\6.0.1304</PkgEnterpriseLibrary_Data>
   </PropertyGroup>
 </Project>
