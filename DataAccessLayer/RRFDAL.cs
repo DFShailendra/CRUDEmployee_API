@@ -508,6 +508,31 @@ namespace EmployeeAPI.DataAccessLayer
             return dataTable;
         }
 
+        public DataTable GetProjectDDL(int Id)
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_Project_GetProjectDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@ClientId", Id);
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "Project";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
 
 
     }

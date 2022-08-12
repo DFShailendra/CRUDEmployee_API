@@ -96,6 +96,7 @@ namespace API.Controllers
         }
 
         [HttpGet("getDDL")]
+
         public IActionResult getDDL()
         {
             try
@@ -112,11 +113,6 @@ namespace API.Controllers
                 DataTable isremotely = _RRFDAL.GetIsRemotelyDDL();
                 DataTable minimumyearsofexperience = _RRFDAL.GetMinimumYearsOfExperienceDDL();
 
-
-
-
-
-
                 dataSet.Tables.Add(resource);
                 dataSet.Tables.Add(client);
                 dataSet.Tables.Add(role);
@@ -126,15 +122,28 @@ namespace API.Controllers
                 dataSet.Tables.Add(isinternalresource);
                 dataSet.Tables.Add(payroletype);
                 dataSet.Tables.Add(minimumyearsofexperience);
-                dataSet.Tables.Add(isremotely);
-
-
-
-
-
+                dataSet.Tables.Add(isremotely);  
 
                 return Ok(dataSet);
             } catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
+        }
+
+        // GET api/<EmployeeController>/5
+        [HttpGet("getProjectDDL/{id}")]
+        public IActionResult getProjectDDL(int id)
+        {
+            try
+            {
+                DataSet dataSet = new DataSet();
+                DataTable project = _RRFDAL.GetProjectDDL(id);
+                dataSet.Tables.Add(project);
+
+                return Ok(dataSet);
+            }
+            catch (Exception ex)
             {
                 return StatusCode(500, ex);
             }
