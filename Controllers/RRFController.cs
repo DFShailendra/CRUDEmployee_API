@@ -112,6 +112,10 @@ namespace API.Controllers
                 DataTable payroletype = _RRFDAL.GetPayroleTypeDDL();
                 DataTable isremotely = _RRFDAL.GetIsRemotelyDDL();
                 DataTable minimumyearsofexperience = _RRFDAL.GetMinimumYearsOfExperienceDDL();
+                DataTable mandatoryskills = _RRFDAL.GetMandatorySkillsDDL();
+                DataTable nicetohaveskills = _RRFDAL.GetNiceToHaveSkillsDDL();
+
+
 
                 dataSet.Tables.Add(resource);
                 dataSet.Tables.Add(client);
@@ -122,7 +126,10 @@ namespace API.Controllers
                 dataSet.Tables.Add(isinternalresource);
                 dataSet.Tables.Add(payroletype);
                 dataSet.Tables.Add(minimumyearsofexperience);
-                dataSet.Tables.Add(isremotely);  
+                dataSet.Tables.Add(isremotely);
+                dataSet.Tables.Add(mandatoryskills);
+                dataSet.Tables.Add(nicetohaveskills);
+
 
                 return Ok(dataSet);
             } catch (Exception ex)

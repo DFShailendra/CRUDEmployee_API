@@ -533,6 +533,54 @@ namespace EmployeeAPI.DataAccessLayer
             return dataTable;
         }
 
+        public DataTable GetMandatorySkillsDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_MandatorySkills_GetMandatorySkillsDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "MandatorySkills";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
+        public DataTable GetNiceToHaveSkillsDDL()
+        {
+            DataTable dataTable = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionstring))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_NiceToHaveSkills_GetNiceToHaveSkillsDDL", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter();
+                    da.SelectCommand = cmd;
+                    da.Fill(dataTable);
+                    dataTable.TableName = "NiceToHaveSkills";
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dataTable;
+        }
+
 
 
     }
