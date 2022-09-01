@@ -132,7 +132,7 @@ namespace EmployeeAPI.DataAccessLayer
 
         public bool InsertUpdateRRFRecord(RRF objRRF)
         {
-            int result = 0;
+                int result = 0;
             try
             {
                 using (SqlConnection conn = new SqlConnection(connectionstring))
